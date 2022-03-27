@@ -1,0 +1,48 @@
+body {
+    background-color: #6495ed;
+}
+
+.title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.cont-item {
+    margin: 15px 0 0 0;
+    background-color: #f8f9fa;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+}
+
+a.nav-link {
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: 1em;
+    }
+    
+    .title {
+        font-size: 1.5em;
+    }
+
+    #chicken {
+        font-size: 1.5em;
+    }
+    #beef {
+        font-size: 1.5em;
+    }
+    #sushi {
+        font-size: 1.5em;
+    }
+}
